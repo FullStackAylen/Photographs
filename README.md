@@ -17,10 +17,3 @@ Muestro mis fotos favoritas, las combino con un poco de arte visual y algunas fr
 - Diseño responsive, simple y directo al corazón.
 - Un pequeño espacio para dejar comentarios (porque amo leer qué te transmite).
 
----
-
-## 🚀 ¿Querés probarla?
-
-1. Cloná este repo:
-   ```bash
-   git clone https://github.com/tu-usuario/mi-landing-fotos.git

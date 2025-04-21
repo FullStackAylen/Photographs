@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&display=swap" rel="stylesheet">
+
+    <title>Fotografias</title>
+</head>
+<body>
+    <main>
+        <header class="header">          
+            
+            <nav class="navegacion">
+                <h1 class="titulo">Fotografias</h1>
+                <ul class="menu">
+                    <li><a href="#">Sobre mí</a></li>
+                    <li><a href="#">Galeria</a></li>
+                    <li><a>Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <h2 class="bienvenida">Bienvenido a mi pagina personal de fotografias!</h1>
+
+        <div class="introduccion">
+            <h3>Sobre mí</h2>
+            <p>Soy una persona fanática de la fotografía y del arte en general. Me gusta encontrar belleza en lo simple, en lo cotidiano, en eso que muchas veces pasa desapercibido. A través de mi lente busco capturar imágenes que transmitan algo: desde la calma del viento moviendo las hojas, hasta la nostalgia que puede despertar una taza de café en un día nublado.</p>
+            <p>Ojalá mis fotos les gusten, les lleguen, y los conecten con algún recuerdo, sensación o emoción. Solo soy alguien que intenta compartir lo lindo que hay en lo que nos rodea. Qué le voy a hacer… sensibilidad nivel "modo artista on".</p>
+            <p>Como dijo alguna vez alguien: <i> “La belleza no está en lo que mirás, sino en cómo lo mirás”.</i></p>
+        </div>
+        <div class="galeria" id="galeria">
+            <h3>Galeria de imagenes</h3>
+            <div id="cuadrantes"></div>
+            <input type="button" value="Ver más">
+        </div>
+        <div id="modal" class="modal">
+            <span id="cerrar-modal" class="cerrar">&times;</span>
+            <img id="imagen-modal" class="modal-contenido" />
+        </div>
+
+        <div class="contactos">
+            <h3>Deja tu comentario</h3>
+            <p>Me gustaria ver que opinas de las fotos y si te gusta lo que intento mostrar, en que mejorarias o como ves tales imagenes 💕</p>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+            <label for="comentario">Comentario</label>
+            <textarea name="comentario" id="comentario"></textarea>
+        </div>
+        <footer>
+            <p>Aylen Rodriguez - Personal single page - FullStackDeveloper</p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

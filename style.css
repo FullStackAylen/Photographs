@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+:root {
+  --background: #F4EFEA;      /* Un beige un poquito más oscuro que el anterior */
+  --text: #3E2723;            /* Marrón oscuro más nítido */
+  --detail: #9E7D67;          /* Marrón rosado, con más cuerpo */
+  --accent: #795548;          /* Un marrón tierra más fuerte y visible */
+  --hover: #D7CCC8;
+  --border: #C1B6AE;          /* Un gris-marrón más marcado */
+  
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+/* Header */
+.navegacion {
+  background-color: transparent;
+  color: var(--text);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 60px;
+  border-bottom: 1px solid var(--border);
+}
+
+.titulo {
+  font-size: 32px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.menu li {
+  font-size: 18px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.menu li:hover {
+  color: var(--accent);
+}
+
+/* Bienvenida */
+.bienvenida {
+  text-align: center;
+  font-size: 24px;
+  padding: 40px 20px 10px;
+  font-weight: 300;
+}
+
+/* Introducción */
+.introduccion {
+  margin: 40px auto;
+  width: 80%;
+  background-color: #fffdfb;
+  color: var(--text);
+  border-left: 3px solid var(--accent);
+  padding: 30px 40px;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(141, 110, 99, 0.1);
+}
+
+/* Galería */
+.galeria {
+  text-align: center;
+  margin: 60px auto;
+}
+
+.galeria h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.galeria input[type="button"] {
+  background-color: var(--accent);
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.galeria input[type="button"]:hover {
+  background-color: var(--detail);
+}
+
+.galeria img:hover {
+  cursor: pointer;
+}
+/* Contacto */
+.contactos {
+  margin: 60px auto;
+  width: 80%;
+  background-color: #fffdfb;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 8px rgba(160, 130, 115, 0.1);
+}
+
+.contactos h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.contactos p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-family: inherit;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background-color: #fcf9f7;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 30px;
+  font-size: 14px;
+  color: var(--detail);
+  border-top: 1px solid var(--border);
+  margin-top: 40px;
+}
+
+/* modal */
+/* Estilo general del modal */
+.modal {
+  display: none; /* Oculto por defecto */
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Imagen dentro del modal */
+.modal-contenido {
+  display: block;
+  margin: 50px auto;
+  max-width: 90%;
+  max-height: 80vh;
+  border-radius: 10px;
+}
+
+/* Botón cerrar */
+.cerrar {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}

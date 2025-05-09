@@ -7,7 +7,7 @@
 ## 📸 ¿De qué va esto?
 
 Una landing page simple y estética hecha con HTML, CSS y un toque de JavaScript.  
-Muestro mis fotos favoritas, las combino con un poco de arte visual y algunas frases que me representan. Todo el contenido lo hice pensando en compartirlo con amigos (¡como vos!) 💬
+Muestro mis fotos favoritas, las combino con un poco de arte visual y algunas frases que me representan. Todo el contenido lo hice pensando en compartirlo con amigos 💬
 
 ---
 
